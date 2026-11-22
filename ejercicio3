@@ -1,0 +1,14 @@
+//Función car que recibe name, model y year
+function car(name, model, year) {
+// this apunta al nuevo objeto vacío que se creará al usar new
+this.name = name;
+this.model = model;
+this.year = year;
+}
+
+// Creamos las dos instancias
+const mycar = new car("KIA", "Xceed", 2022);
+const myothercar = new car("BMW", "Serie1", 2016);
+
+console.log(mycar);
+console.log(myothercar);
