@@ -1,5 +1,6 @@
 //Función car que recibe name, model y year
 function car(name, model, year) {
+    
 // this apunta al nuevo objeto vacío que se creará al usar new
 this.name = name;
 this.model = model;
